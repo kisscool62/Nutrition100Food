@@ -1,0 +1,256 @@
+X OUT = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_17.LST"
+X NAPEL=0
+p 
+a1PROCEDURE ** SELEC **
+X Sélection des individus et des variables pour l'analyse                         
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+p 
+b2PARAMETRES LUS SUR NDICA
+  ENREGISTREMENT 1 ... TITRE :                                                                                 
+  ENREGISTREMENT 2 ... NQEXA =   46  : NOMBRE DE VARIABLES NUMERIQUES ENREGISTREES
+                       NXMOD =   10  : NOMBRE MAXIMUM DE MODALITES
+                       NQTEX =    0  : NOMBRE DE VARIABLES TEXTUELLES ENREGISTREES
+Z 
+p 
+b2PARAMETRES LUS SUR NDONA
+  ENREGISTREMENT 1 ... TITRE :                                                                                 
+  ENREGISTREMENT 2 ... NQEXA =     46     : NOMBRE DE VARIABLES NUMERIQUES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NIEXA =    189     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+                       NQTEX =      0     : NOMBRE DE VARIABLES TEXTUELLES ENREGISTREES
+Z 
+p 
+b2PARAMETRES DE LA PROCEDURE
+     LSELI  =       0       mode de selection des individus (0=TOT, 1=LIST, 2=FILT).                       
+     IMASS  =       0       numero de la variable 'poids des individus' (0=UNIF, -1=FORCE).                
+     LZERO  =       1       recodage des reponses manquantes (0=NOREC, 1=REC).                             
+     LEDIT  =       1       impression du dictionnaire des variables retenues (0=NON,1=COURT, 2=LONG).     
+   * NXFIL  =      20       nombre maximum de constantes employees dans le filtre (si LSELI=FILT ou 2)     
+     TIRER  =       0       tirage d'un sous echantillon aleatoire.                                        
+     LESTI  =       0       estimation des donn‚es manquantes des frequences actives (1=OUI,0=NON)         
+   * LIND   =       0       ecriture des indexes des individus actifs (1=OUI,0=NON)                        
+Z 
+p 
+b2EDITION DES LISTES DES VARIABLES SELECTIONNEES.
+  : ---- VARIABLE(S) RETENUE(S)                                                   
+     1     CAT SUP 44--46                                                                  
+     2     CONT ACT 2--39,41--43                                                           
+     3     CONT SUP 1,40                                                                   
+     4     END                                                                             
+p
+b2BILAN DE LA SELECTION DES VARIABLES
+ e----------+--------+-------------------------------------------------------
+ e  STATUT  | NOMBRE |                          NUMEROS
+ e----------+--------+-------------------------------------------------------
+            |        |
+   NOMI ILL |    3   |   44   45   46
+            |        |
+   CONT ACT |   41   |    2    3    4    5    6    7    8    9   10   11   12
+            |        |   13   14   15   16   17   18   19   20   21   22   23
+            |        |   24   25   26   27   28   29   30   31   32   33   34
+            |        |   35   36   37   38   39   41   42   43
+            |        |
+   CONT ILL |    2   |    1   40
+ f----------+--------+-------------------------------------------------------
+p 
+b2PARAMETRES ENREGISTRES SUR NDON 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT =     47     : NOMBRE DE VARIABLES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NITOT =    189     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+Z 
+p 
+b2PARAMETRES ENREGISTRES SUR NDIC 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT    =   47                          : NOMBRE DE VARIABLES ENREGISTREES
+                       NXMOC    =   10      NXMAC    =    0     : NOMBRE MAXIMUM DE MODALITES (GLOBAL, QUESTIONS ACTIVES)
+                       NMTOT    =   21      NMACT    =    0     : NOMBRE TOTAL DE MODALITES   (GLOBAL, QUESTIONS ACTIVES)
+                       NITOT    =  189      NIACT    =  189     : NOMBRE D'INDIVIDUS  (TOTAL, ACTIFS)
+                       PITOT    =  189.00   PIACT    =  189.00  : POIDS DES INDIVIDUS (TOTAL, ACTIFS)
+                       LANAL    =    1                          : RECODAGE DES REPONSES MANQUANTES
+                       NVSTA(1) =    0      NVSTA(2) =    3     : NOMBRE DE QUESTIONS  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(3) =   41      NVSTA(4) =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(5) =    0      NVSTA(6) =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+Z
+p 
+b2PARAMETRES LUS SUR NDIC 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT    =   47                          : NOMBRE DE VARIABLES ENREGISTREES
+                       NXMOC    =   10      NXMAC    =    0     : NOMBRE MAXIMUM DE MODALITES (GLOBAL, QUESTIONS ACTIVES)
+                       NMTOT    =   21      NMACT    =    0     : NOMBRE TOTAL DE MODALITES   (GLOBAL, QUESTIONS ACTIVES)
+                       NITOT    =  189      NIACT    =  189     : NOMBRE D'INDIVIDUS  (TOTAL, ACTIFS)
+                       PITOT    =  189.00   PIACT    =  189.00  : POIDS DES INDIVIDUS (TOTAL, ACTIFS)
+                       LANAL    =    1                          : RECODAGE DES REPONSES MANQUANTES
+                       NVSTA(1) =    0      NVSTA(2) =    3     : NOMBRE DE QUESTIONS  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(3) =   41      NVSTA(4) =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(5) =    0      NVSTA(6) =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+Z
+b2FIN D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** SELEC **
+Z 
+p 
+a1PROCEDURE ** COPRI **
+X Analyse des correspondances principales                                         
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+p 
+b2PARAMETRES LUS SUR NDIC 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT    =   47                          : NOMBRE DE VARIABLES ENREGISTREES
+                       NXMOC    =   10      NXMAC    =    0     : NOMBRE MAXIMUM DE MODALITES (GLOBAL, QUESTIONS ACTIVES)
+                       NMTOT    =   21      NMACT    =    0     : NOMBRE TOTAL DE MODALITES   (GLOBAL, QUESTIONS ACTIVES)
+                       NITOT    =  189      NIACT    =  189     : NOMBRE D'INDIVIDUS  (TOTAL, ACTIFS)
+                       PITOT    =  189.00   PIACT    =  189.00  : POIDS DES INDIVIDUS (TOTAL, ACTIFS)
+                       LANAL    =    1                          : RECODAGE DES REPONSES MANQUANTES
+                       NVSTA(1) =    0      NVSTA(2) =    3     : NOMBRE DE QUESTIONS  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(3) =   41      NVSTA(4) =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(5) =    0      NVSTA(6) =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+Z
+p 
+b2PARAMETRES LUS SUR NDON 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT =     47     : NOMBRE DE VARIABLES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NITOT =    189     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+Z 
+p 
+b2PARAMETRES DE LA PROCEDURE
+     LCORR  =       1       analyse de la matrice des correlations (0=NON, 1=OUI).                         
+     NAXE   =      10       nombre d'axes retenus.                                                         
+  0  NVEDI  =     ALL       nombre de valeurs propres dont on edite l'histogramme.                         
+     LPERM  =       0       edition de la matrice rangee dans l'ordre du premier facteur (0=NON, 1=OUI).   
+     LEDIN  =       0       impression des coordonnees des individus (0=NON, 1=ACT, 2=TOT).                
+  0  NAXED  =       5       nombre d'axes pour lesquels sont editees les coordonnees.                      
+     NAVIR  =       2       nombre de chiffres apres la virgule (edition des coordonnees).                 
+     LGUS   =       1       ecriture sur NGUS de la matrice de correlation                                 
+     LEXCE  =       1       creation d'un fichier pour EXCEL (0=NON, 1=OUI).                               
+     LEXCOR =       2       libelles pour l'edition de la matrice des correlations (1=COURT, 2=LONG).      
+     LEXIND =       0       ecriture sur le fichier NCOEF des resultats pour les individus                 
+Z 
+p 
+b2PARAMETRES ENREGISTRES SUR NGUS 
+  ENREGISTREMENT 1 ... TITRE : Analyse des correspondances principales                                         
+  ENREGISTREMENT 2 ... NAXE      =   10                           : NOMBRE D'AXES ENREGISTRES
+                       LORIG     =    1                           : ORIGINE (A.C.P. : CORRELATIONS    )
+                       NIDI      =   15      NIDV      =    6     : LONGUEUR IDENTIFICATEURS (INDIVIDUS, VARIABLES)
+                       NLTYP(1)  =  189      NLTYP(2)  =    0     : NOMBRE D'INDIVIDUS   (ACTIFS,  ILLUSTRATIFS)
+                       NLTYP(3)  =    0      NLTYP(4)  =   21     : NOMBRE DE MODALITES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(5)  =   41      NLTYP(6)  =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(7)  =    0      NLTYP(8)  =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(11) =   41                           : ANCIENS AXES UNITAIRES (ACP)
+Z 
+  ON TROUVE DEUX FOIS LE PALIER :   11/  12
+  ON TROUVE DEUX FOIS LE PALIER :   17/  18
+  ON TROUVE DEUX FOIS LE PALIER :   27/  28
+b2FIN D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** COPRI **
+Z 
+p 
+a1PROCEDURE ** ECGUS **
+X Ecriture du fichier graphique factoriel                                         
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+p 
+b2PARAMETRES DE LA PROCEDURE
+     NIND   =   50000.000   Nombre maximum d'individus pour l'écriture du fichier FGF (0=illimite)         
+Z 
+p 
+b2PARAMETRES LUS SUR NDIC 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT    =   47                          : NOMBRE DE VARIABLES ENREGISTREES
+                       NXMOC    =   10      NXMAC    =    0     : NOMBRE MAXIMUM DE MODALITES (GLOBAL, QUESTIONS ACTIVES)
+                       NMTOT    =   21      NMACT    =    0     : NOMBRE TOTAL DE MODALITES   (GLOBAL, QUESTIONS ACTIVES)
+                       NITOT    =  189      NIACT    =  189     : NOMBRE D'INDIVIDUS  (TOTAL, ACTIFS)
+                       PITOT    =  189.00   PIACT    =  189.00  : POIDS DES INDIVIDUS (TOTAL, ACTIFS)
+                       LANAL    =    1                          : RECODAGE DES REPONSES MANQUANTES
+                       NVSTA(1) =    0      NVSTA(2) =    3     : NOMBRE DE QUESTIONS  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(3) =   41      NVSTA(4) =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(5) =    0      NVSTA(6) =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+Z
+p 
+b2PARAMETRES LUS SUR NDON 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT =     47     : NOMBRE DE VARIABLES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NITOT =    189     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+Z 
+p 
+b2PARAMETRES LUS SUR NGUS 
+  ENREGISTREMENT 1 ... TITRE : Analyse des correspondances principales                                         
+  ENREGISTREMENT 2 ... NAXE      =   10                           : NOMBRE D'AXES ENREGISTRES
+                       LORIG     =    1                           : ORIGINE (A.C.P. : CORRELATIONS    )
+                       NIDI      =   15      NIDV      =    6     : LONGUEUR IDENTIFICATEURS (INDIVIDUS, VARIABLES)
+                       NLTYP(1)  =  189      NLTYP(2)  =    0     : NOMBRE D'INDIVIDUS   (ACTIFS,  ILLUSTRATIFS)
+                       NLTYP(3)  =    0      NLTYP(4)  =   21     : NOMBRE DE MODALITES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(5)  =   41      NLTYP(6)  =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(7)  =    0      NLTYP(8)  =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(11) =   41                           : ANCIENS AXES UNITAIRES (ACP)
+Z 
+b2FIN D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** ECGUS **
+Z 
+X NREGL="C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_17.reg"
+p 
+a1PROCEDURE ** RINDS **
+X Règles d'affectation pour les analyses et les typologies                        
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+p 
+b2PARAMETRES DE LA PROCEDURE
+     LTYPE  =       1       Création fichier règles (1=Après analyses, 2=Après typologies).                
+Z 
+p 
+b2PARAMETRES LUS SUR NDIC 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT    =   47                          : NOMBRE DE VARIABLES ENREGISTREES
+                       NXMOC    =   10      NXMAC    =    0     : NOMBRE MAXIMUM DE MODALITES (GLOBAL, QUESTIONS ACTIVES)
+                       NMTOT    =   21      NMACT    =    0     : NOMBRE TOTAL DE MODALITES   (GLOBAL, QUESTIONS ACTIVES)
+                       NITOT    =  189      NIACT    =  189     : NOMBRE D'INDIVIDUS  (TOTAL, ACTIFS)
+                       PITOT    =  189.00   PIACT    =  189.00  : POIDS DES INDIVIDUS (TOTAL, ACTIFS)
+                       LANAL    =    1                          : RECODAGE DES REPONSES MANQUANTES
+                       NVSTA(1) =    0      NVSTA(2) =    3     : NOMBRE DE QUESTIONS  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(3) =   41      NVSTA(4) =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(5) =    0      NVSTA(6) =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+Z
+p 
+b2PARAMETRES LUS SUR NDON 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT =     47     : NOMBRE DE VARIABLES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NITOT =    189     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+Z 
+p 
+b2PARAMETRES LUS SUR NGUS 
+  ENREGISTREMENT 1 ... TITRE : Analyse des correspondances principales                                         
+  ENREGISTREMENT 2 ... NAXE      =   10                           : NOMBRE D'AXES ENREGISTRES
+                       LORIG     =    1                           : ORIGINE (A.C.P. : CORRELATIONS    )
+                       NIDI      =   15      NIDV      =    6     : LONGUEUR IDENTIFICATEURS (INDIVIDUS, VARIABLES)
+                       NLTYP(1)  =  189      NLTYP(2)  =    0     : NOMBRE D'INDIVIDUS   (ACTIFS,  ILLUSTRATIFS)
+                       NLTYP(3)  =    0      NLTYP(4)  =   21     : NOMBRE DE MODALITES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(5)  =   41      NLTYP(6)  =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(7)  =    0      NLTYP(8)  =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(11) =   41                           : ANCIENS AXES UNITAIRES (ACP)
+Z 
+b2FIN D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** RINDS **
+Z 
+a1FIN NORMALE DE L'ANALYSE
+Z 

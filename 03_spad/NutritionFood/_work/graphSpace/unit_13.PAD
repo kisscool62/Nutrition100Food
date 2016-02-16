@@ -1,0 +1,27 @@
+NDIC = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_11.DIC"
+NDON = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_11.DON"
+NGUS = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_11.GUS"
+NGRI = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_12.GRI"
+FBGUS = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_11.FGF"
+NGRO = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_13.GRO"
+NCOEF = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_13.TBL"
+LOG = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_13.LOG"
+OUT = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_13.LST"
+PROC PARTI
+Construction des partitions
+:----- PARAMETRES
+NPART=2, NCMIN=3, NCMAX=10, NITER=10, LAFEC=2, LEDIT=0, NAXED=5,  >
+NTYPE=10, LEXCE=1,
+:===========================================================================
+PROC DECLA
+Description et caractérisation des classes
+:----- PARAMETRES
+LMTRI=1, CMODA=2.5, PCMIN=2.0, LSUPR=0, CNOMI=0, CCONT=2.5, CFREQ=0,  >
+CAXE=0, PMODA=0, LPNOM=0, EDNOM=0, LPCON=0, EDCON=0, PFREQ=0, LPFRE=0,  >
+PAXE=0, VTCRI=1, LEXCE=1, LPART=0
+:===========================================================================
+NREGL = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_13.REG"
+PROC RINDS
+Règles d'affectation pour les analyses et les typologies
+LTYPE=2
+:===========================================================================

@@ -1,0 +1,31 @@
+FBDON = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.SBA"
+NDICA = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.LAR"
+NDONA = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.DAR"
+NDIC = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.DIC"
+NDON = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.DON"
+NGUS = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.GUS"
+FBGUS = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.FGF"
+NCOEF = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.TBL"
+LOG = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.LOG"
+OUT = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.LST"
+PROC SELEC
+Sélection des individus et des variables pour l'analyse
+:----- PARAMETRES
+LEDIT=1, LESTI=1, LZERO=1, LSELI=0, IMASS=0
+: ---- VARIABLE(S) RETENUE(S)
+FREQ ACT 1--5
+END
+:===========================================================================
+PROC CORBI
+Analyse des Correspondances Simples
+:----- PARAMETRES
+NITER=0, NAXE=10, VTCRI=0, NAXED=5, LEDIN=2, LEXCE=1,LEXIND=1, NVEDI=ALL
+:===========================================================================
+PROC ECGUS
+Ecriture du fichier graphique factoriel
+NIND=50000
+:===========================================================================
+NREGL="C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_15.reg"
+PROC RINDS
+Règles d'affectation pour les analyses et les typologies
+LTYPE=1

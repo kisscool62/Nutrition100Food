@@ -1,0 +1,15 @@
+NDIC = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_11.DIC"
+NDON = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_11.DON"
+NGUS = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_11.GUS"
+NGRI = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_12.GRI"
+FBGRI = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_12.FGH"
+NCOEF = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_12.TBL"
+LOG = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_12.LOG"
+OUT = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_12.LST"
+PROC RECIP
+Classification hiérarchique directe (sur facteurs)
+:----- PARAMETRES
+NAXU=11, NTERM=ALL, NIVED=50, LTERM=0, NAXED=5, LDESC=1, LDEND=2, LEXCE=1
+:===========================================================================
+PROC ECGRI
+Ecriture du fichier graphique hiérarchique

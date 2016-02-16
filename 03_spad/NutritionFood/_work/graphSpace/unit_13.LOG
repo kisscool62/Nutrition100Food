@@ -1,0 +1,419 @@
+X OUT = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_13.LST"
+p 
+a1PROCEDURE ** PARTI **
+X Construction des partitions                                                     
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES  20 MINUTES  28 SECONDES
+Z 
+p 
+b2PARAMETRES LUS SUR NGRI 
+  ENREGISTREMENT 1 ... TITRE : Classification hiérarchique directe (sur facteurs)                              
+  ENREGISTREMENT 2 ... NINDI =  214     : NOMBRE D'INDIVIDUS AGREGES
+                       NCTET =    2     : NOMBRE DE TERMINAUX EN TETE
+                       NTERM =  214     : NOMBRE D'ELEMENTS TERMINAUX ENREGISTRES
+                       NVARU =   11     : NOMBRE DE VARIABLES UTILISEES
+                       PTOTI =  214.00  : POIDS TOTAL DES INDIVIDUS
+                       LORIG =    1     : ORIGINE (A.C.P. : CORRELATIONS       )
+                       LMETH =    1     : PROCEDURE (RECIP)
+Z 
+p 
+b2PARAMETRES LUS SUR NGUS 
+  ENREGISTREMENT 1 ... TITRE : Analyse des correspondances principales                                         
+  ENREGISTREMENT 2 ... NAXE      =   41                           : NOMBRE D'AXES ENREGISTRES
+                       LORIG     =    1                           : ORIGINE (A.C.P. : CORRELATIONS    )
+                       NIDI      =   15      NIDV      =    6     : LONGUEUR IDENTIFICATEURS (INDIVIDUS, VARIABLES)
+                       NLTYP(1)  =  214      NLTYP(2)  =    0     : NOMBRE D'INDIVIDUS   (ACTIFS,  ILLUSTRATIFS)
+                       NLTYP(3)  =    0      NLTYP(4)  =   21     : NOMBRE DE MODALITES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(5)  =   41      NLTYP(6)  =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(7)  =    0      NLTYP(8)  =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(11) =   41                           : ANCIENS AXES UNITAIRES (ACP)
+Z 
+p 
+b2PARAMETRES DE LA PROCEDURE
+   * NXPAR  =      10       majorant du nombre de coupures demandees.                                      
+     NITER  =      10       nombre d'iterations de consolidation (0=NON).                                  
+   * LEDIN  =       1       edition des correspondances classes-individus (0=NON,3=TOT, 6=TOTL ... ).      
+     NTYPE  =      10       nombre de parangons (0=NON).                                                   
+     NAXED  =       5       nombre d'axes pour lesquels seront editees les valeurs-test (0=NON).           
+     LAFEC  =       2       affectation des individus illustratifs dans les classes(1=SUP,2=MANQ,3=CLAS)   
+X 
+  ATTENTION (VALPA-811)
+  LE PARAMETRE LEDIT  EGAL A      0 DEPASSE SA BORNE INFERIEURE
+  FIXEE A      1
+  ON LUI ATTRIBUE SA VALEUR PAR DEFAUT.
+X 
+   * LEDIT  =       0       Edition des individus par classe selon le statut(0=NON,1=ACT,2=ILL,3=TOT)      
+     NPART  =       2       nombre de partitions demandees.                                                
+     NCMIN  =       3       minimum de classes pour une partition demandee.                                
+     NCMAX  =      10       maximum de classes pour une partition demandee.                                
+     LEXCE  =       1       creation d'un fichier pour EXCEL (0=NON, 1=OUI).                               
+Z 
+p 
+b2PARAMETRES ENREGISTRES SUR NGRO 
+  ENREGISTREMENT 1 ... TITRE : Construction des partitions                                                     
+  ENREGISTREMENT 2 ... NINDI =  214     : NOMBRE D'INDIVIDUS AGREGES
+                       NCOUP =    2     : NOMBRE DE COUPURES ENREGISTREES
+                       NVARU =   11     : NOMBRE DE VARIABLES UTILISEES
+                       PTOTI =  214.00  : POIDS TOTAL DES INDIVIDUS
+                       LORIG =    1     : ORIGINE (A.C.P. : CORRELATIONS       )
+Z 
+p 
+b2ENREGISTREMENTS DES COUPURES SUR NGRO
+    1 . COUPURE a EN  3 CLASSES
+    2 . COUPURE b EN  6 CLASSES
+Z 
+b2FIN D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES  20 MINUTES  28 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** PARTI **
+Z 
+p 
+a1PROCEDURE ** DECLA **
+X Description et caractérisation des classes                                      
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES  20 MINUTES  28 SECONDES
+Z 
+p 
+b2PARAMETRES LUS SUR NDIC 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT    =   47                          : NOMBRE DE VARIABLES ENREGISTREES
+                       NXMOC    =   10      NXMAC    =    0     : NOMBRE MAXIMUM DE MODALITES (GLOBAL, QUESTIONS ACTIVES)
+                       NMTOT    =   21      NMACT    =    0     : NOMBRE TOTAL DE MODALITES   (GLOBAL, QUESTIONS ACTIVES)
+                       NITOT    =  214      NIACT    =  214     : NOMBRE D'INDIVIDUS  (TOTAL, ACTIFS)
+                       PITOT    =  214.00   PIACT    =  214.00  : POIDS DES INDIVIDUS (TOTAL, ACTIFS)
+                       LANAL    =    1                          : RECODAGE DES REPONSES MANQUANTES
+                       NVSTA(1) =    0      NVSTA(2) =    3     : NOMBRE DE QUESTIONS  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(3) =   41      NVSTA(4) =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(5) =    0      NVSTA(6) =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+Z
+p 
+b2PARAMETRES LUS SUR NDON 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT =     47     : NOMBRE DE VARIABLES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NITOT =    214     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+Z 
+p 
+b2PARAMETRES LUS SUR NGRO 
+  ENREGISTREMENT 1 ... TITRE : Construction des partitions                                                     
+  ENREGISTREMENT 2 ... NINDI =  214     : NOMBRE D'INDIVIDUS AGREGES
+                       NCOUP =    2     : NOMBRE DE COUPURES ENREGISTREES
+                       NVARU =   11     : NOMBRE DE VARIABLES UTILISEES
+                       PTOTI =  214.00  : POIDS TOTAL DES INDIVIDUS
+                       LORIG =    1     : ORIGINE (A.C.P. : CORRELATIONS       )
+Z 
+p 
+b2PARAMETRES DE LA PROCEDURE
+     EDNOM  =       0       edition des tableaux croisant classes et questions (0=NON).                    
+     LPNOM  =       0       caracterisation de la partition par les questions (0=NON, 1=OUI).              
+     CNOMI  =       0       caracterisation des classes par les questions (0=NON).                         
+  0  PMODA  =       0       caracterisation de la partition par les modalites (0=NON).                     
+     CMODA  =       2.500   caracterisation des classes par les modalites (0=NON).                         
+     PCMIN  =       2.000   poids relatif minimal pour qu'une modalite soit retenue.                       
+     LSUPR  =       0       modalite caracteristique si %(mod./classe) > %(mod./total)  (0=NON, 1=OUI).    
+  0  PFREQ  =       0       caracterisation de la partition par les frequences (0=NON).                    
+     LPFRE  =       0       edition du croisement des classes et des frequences (0=NON, 1=ACT, 2=TOT).     
+     CFREQ  =       0       caracterisation des classes par les frequences (0=NON).                        
+  0  EDCON  =       0       edition, pour chaque variable continue, des statistiques par classe (0=NON).   
+     LPCON  =       0       caracterisation de la partition par les variables continues (0=NON, 1=OUI).    
+     CCONT  =       2.500   caracterisation des classes par les variables continues (0=NON).               
+  0  PAXE   =       0       caracterisation de la partition par les axes de l'analyse (0=NON).             
+     CAXE   =       0       caracterisation des classes par les axes de l'analyse (0=NON).                 
+   * LEDIN  =       0       edition des correspondances classes-individus (0=NON,1=COMPO, 2=AFFEC, 3=TOT). 
+     LMTRI  =       1       Critere de tri des modalites (1=VTEST 2=PMOD 3=PCLA).                          
+     VTCRI  =       1       choix de poids pour le calcul de valeur-test (1=POIDS ABSOLUS,0=RELATIFS)      
+     LPART  =       0       liste des nombres de classes des partitions demandees(1=LIST,0=NON)            
+     LEXCE  =       1       creation d'un fichier pour EXCEL (0=NON, 1=OUI).                               
+Z 
+p 
+b2PARAMETRES LUS SUR NGUS 
+  ENREGISTREMENT 1 ... TITRE : Analyse des correspondances principales                                         
+  ENREGISTREMENT 2 ... NAXE      =   41                           : NOMBRE D'AXES ENREGISTRES
+                       LORIG     =    1                           : ORIGINE (A.C.P. : CORRELATIONS    )
+                       NIDI      =   15      NIDV      =    6     : LONGUEUR IDENTIFICATEURS (INDIVIDUS, VARIABLES)
+                       NLTYP(1)  =  214      NLTYP(2)  =    0     : NOMBRE D'INDIVIDUS   (ACTIFS,  ILLUSTRATIFS)
+                       NLTYP(3)  =    0      NLTYP(4)  =   21     : NOMBRE DE MODALITES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(5)  =   41      NLTYP(6)  =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(7)  =    0      NLTYP(8)  =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(11) =   41                           : ANCIENS AXES UNITAIRES (ACP)
+Z 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Energ_Kcal                                                  
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Protein_.g.                                                 
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Lipid_Tot_.g.                                               
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Ash_.g.                                                     
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Carbohydrt_.g.                                              
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Fiber_TD_.g.                                                
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Sugar_Tot_.g.                                               
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Calcium_.mg.                                                
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Iron_.mg.                                                   
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Magnesium_.mg.                                              
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Phosphorus_.mg.                                             
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Potassium_.mg.                                              
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Sodium_.mg.                                                 
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Zinc_.mg.                                                   
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Copper_mg.                                                  
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Manganese_.mg.                                              
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Selenium_.µg.                                               
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Vit_C_.mg.                                                  
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Thiamin_.mg.                                                
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Riboflavin_.mg.                                             
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Niacin_.mg.                                                 
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Panto_Acid_mg.                                              
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Vit_B6_.mg.                                                 
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Folate_Tot_.µg.                                             
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Food_Folate_.µg.                                            
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Folate_DFE_.µg.                                             
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Choline_Tot_..mg.                                           
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Vit_B12_.µg.                                                
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Vit_A_IU                                                    
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Retinol_.µg.                                                
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Alpha_Carot_.µg.                                            
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Beta_Carot_.µg.                                             
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Beta_Crypt_.µg.                                             
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Lycopene_.µg.                                               
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Lut.Zea_..µg.                                               
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Vit_E_.mg.                                                  
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Vit_D_IU                                                    
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Vit_K_.µg.                                                  
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  FA_Mono_.g.                                                 
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  FA_Poly_.g.                                                 
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Cholestrl_.mg.                                              
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  Water_.g.                                                   
+X 
+X 
+  ATTENTION (CACCO-800)
+  DANS LA CLASSE   5, LA VARIABLE SUIVANTE A UN POIDS INFERIEUR A 1.
+  FA_Sat_.g.                                                  
+X 
+b2FIN D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES  20 MINUTES  28 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** DECLA **
+Z 
+X NREGL = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_13.REG"
+p 
+a1PROCEDURE ** RINDS **
+X Règles d'affectation pour les analyses et les typologies                        
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES  20 MINUTES  28 SECONDES
+Z 
+p 
+b2PARAMETRES DE LA PROCEDURE
+     LTYPE  =       2       Création fichier règles (1=Après analyses, 2=Après typologies).                
+Z 
+p 
+b2PARAMETRES LUS SUR NDIC 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT    =   47                          : NOMBRE DE VARIABLES ENREGISTREES
+                       NXMOC    =   10      NXMAC    =    0     : NOMBRE MAXIMUM DE MODALITES (GLOBAL, QUESTIONS ACTIVES)
+                       NMTOT    =   21      NMACT    =    0     : NOMBRE TOTAL DE MODALITES   (GLOBAL, QUESTIONS ACTIVES)
+                       NITOT    =  214      NIACT    =  214     : NOMBRE D'INDIVIDUS  (TOTAL, ACTIFS)
+                       PITOT    =  214.00   PIACT    =  214.00  : POIDS DES INDIVIDUS (TOTAL, ACTIFS)
+                       LANAL    =    1                          : RECODAGE DES REPONSES MANQUANTES
+                       NVSTA(1) =    0      NVSTA(2) =    3     : NOMBRE DE QUESTIONS  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(3) =   41      NVSTA(4) =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(5) =    0      NVSTA(6) =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+Z
+p 
+b2PARAMETRES LUS SUR NDON 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT =     47     : NOMBRE DE VARIABLES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NITOT =    214     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+Z 
+p 
+b2PARAMETRES LUS SUR NGUS 
+  ENREGISTREMENT 1 ... TITRE : Analyse des correspondances principales                                         
+  ENREGISTREMENT 2 ... NAXE      =   41                           : NOMBRE D'AXES ENREGISTRES
+                       LORIG     =    1                           : ORIGINE (A.C.P. : CORRELATIONS    )
+                       NIDI      =   15      NIDV      =    6     : LONGUEUR IDENTIFICATEURS (INDIVIDUS, VARIABLES)
+                       NLTYP(1)  =  214      NLTYP(2)  =    0     : NOMBRE D'INDIVIDUS   (ACTIFS,  ILLUSTRATIFS)
+                       NLTYP(3)  =    0      NLTYP(4)  =   21     : NOMBRE DE MODALITES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(5)  =   41      NLTYP(6)  =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(7)  =    0      NLTYP(8)  =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(11) =   41                           : ANCIENS AXES UNITAIRES (ACP)
+Z 
+p 
+b2PARAMETRES LUS SUR NGRO 
+  ENREGISTREMENT 1 ... TITRE : Construction des partitions                                                     
+  ENREGISTREMENT 2 ... NINDI =  214     : NOMBRE D'INDIVIDUS AGREGES
+                       NCOUP =    2     : NOMBRE DE COUPURES ENREGISTREES
+                       NVARU =   11     : NOMBRE DE VARIABLES UTILISEES
+                       PTOTI =  214.00  : POIDS TOTAL DES INDIVIDUS
+                       LORIG =    1     : ORIGINE (A.C.P. : CORRELATIONS       )
+Z 
+b2FIN D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES  20 MINUTES  28 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** RINDS **
+Z 
+a1FIN NORMALE DE L'ANALYSE
+Z 

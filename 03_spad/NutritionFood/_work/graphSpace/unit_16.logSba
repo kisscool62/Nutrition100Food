@@ -1,0 +1,38 @@
+X OUT = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_16.lstSba"
+X NDICA = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_16.lar"
+X NDONA = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_16.dar"
+X FBDON = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_16.sba"
+p 
+a1PROCEDURE ** LBASE **
+X Lecture de la base SPAD                                                         
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+p 
+b2LECTURE DU FICHIER BASE
+  NOM DE LA BASE      : C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_16.sba
+  NOMBRE D'INDIVIDUS             :      189
+  NOMBRE DE VARIABLES NUMERIQUES :       46
+  NOMBRE DE VARIABLES TEXTUELLES :        0
+Z 
+p 
+b2PARAMETRES ENREGISTRES SUR NDICA
+  ENREGISTREMENT 1 ... TITRE :                                                                                 
+  ENREGISTREMENT 2 ... NQEXA =   46  : NOMBRE DE VARIABLES NUMERIQUES ENREGISTREES
+                       NXMOD =   10  : NOMBRE MAXIMUM DE MODALITES
+                       NQTEX =    0  : NOMBRE DE VARIABLES TEXTUELLES ENREGISTREES
+Z 
+p 
+b2PARAMETRES ENREGISTRES SUR NDONA
+  ENREGISTREMENT 1 ... TITRE :                                                                                 
+  ENREGISTREMENT 2 ... NQEXA =     46     : NOMBRE DE VARIABLES NUMERIQUES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NIEXA =    189     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+                       NQTEX =      0     : NOMBRE DE VARIABLES TEXTUELLES ENREGISTREES
+Z 
+b2FIN D'EXECUTION DE LA PROCEDURE LE  14 FEVRIER 2016 A   0 HEURES  44 MINUTES  39 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** LBASE **
+Z 
+a1FIN NORMALE DE L'ANALYSE
+Z 

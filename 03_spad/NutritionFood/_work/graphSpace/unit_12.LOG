@@ -1,0 +1,89 @@
+X OUT = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_12.LST"
+p 
+a1PROCEDURE ** RECIP **
+X Classification hiérarchique directe (sur facteurs)                              
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES   5 MINUTES  33 SECONDES
+Z 
+p 
+b2PARAMETRES LUS SUR NGUS 
+  ENREGISTREMENT 1 ... TITRE : Analyse des correspondances principales                                         
+  ENREGISTREMENT 2 ... NAXE      =   41                           : NOMBRE D'AXES ENREGISTRES
+                       LORIG     =    1                           : ORIGINE (A.C.P. : CORRELATIONS    )
+                       NIDI      =   15      NIDV      =    6     : LONGUEUR IDENTIFICATEURS (INDIVIDUS, VARIABLES)
+                       NLTYP(1)  =  214      NLTYP(2)  =    0     : NOMBRE D'INDIVIDUS   (ACTIFS,  ILLUSTRATIFS)
+                       NLTYP(3)  =    0      NLTYP(4)  =   21     : NOMBRE DE MODALITES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(5)  =   41      NLTYP(6)  =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(7)  =    0      NLTYP(8)  =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(9)  =    0      NLTYP(10) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+                       NLTYP(11) =   41                           : ANCIENS AXES UNITAIRES (ACP)
+Z 
+p 
+b2PARAMETRES DE LA PROCEDURE
+     NAXU   =      11       nombre d'axes retenus.                                                         
+     NTERM  =     ALL       nombre d'elements terminaux de l'arbre a sauvegarder.                          
+  0  NIVED  =      50       nombre de niveaux dont on edite l'histogramme des indices (0=NON).             
+     LTERM  =       0       edition de la composition des elements terminaux (0=NON, 1=OUI).               
+     NAXED  =       5       nombre de coordonnees pour l'edition des elements terminaux (0=NON).           
+     LDESC  =       1       description des noeuds de l'arbre (0=NON, 1=OUI).                              
+     LDEND  =       2       edition du dendrogramme (0=NON, 1=DENSE, 2=LARGE).                             
+     LEXCE  =       1       creation d'un fichier pour EXCEL (0=NON, 1=OUI).                               
+Z 
+p 
+b2PARAMETRES ENREGISTRES SUR NGRI 
+  ENREGISTREMENT 1 ... TITRE : Classification hiérarchique directe (sur facteurs)                              
+  ENREGISTREMENT 2 ... NINDI =  214     : NOMBRE D'INDIVIDUS AGREGES
+                       NCTET =    2     : NOMBRE DE TERMINAUX EN TETE
+                       NTERM =  214     : NOMBRE D'ELEMENTS TERMINAUX ENREGISTRES
+                       NVARU =   11     : NOMBRE DE VARIABLES UTILISEES
+                       PTOTI =  214.00  : POIDS TOTAL DES INDIVIDUS
+                       LORIG =    1     : ORIGINE (A.C.P. : CORRELATIONS       )
+                       LMETH =    1     : PROCEDURE (RECIP)
+Z 
+b2FIN D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES   5 MINUTES  33 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** RECIP **
+Z 
+p 
+a1PROCEDURE ** ECGRI **
+X Ecriture du fichier graphique hiérarchique                                      
+b2DEBUT D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES   5 MINUTES  33 SECONDES
+Z 
+p 
+b2PARAMETRES LUS SUR NDIC 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT    =   47                          : NOMBRE DE VARIABLES ENREGISTREES
+                       NXMOC    =   10      NXMAC    =    0     : NOMBRE MAXIMUM DE MODALITES (GLOBAL, QUESTIONS ACTIVES)
+                       NMTOT    =   21      NMACT    =    0     : NOMBRE TOTAL DE MODALITES   (GLOBAL, QUESTIONS ACTIVES)
+                       NITOT    =  214      NIACT    =  214     : NOMBRE D'INDIVIDUS  (TOTAL, ACTIFS)
+                       PITOT    =  214.00   PIACT    =  214.00  : POIDS DES INDIVIDUS (TOTAL, ACTIFS)
+                       LANAL    =    1                          : RECODAGE DES REPONSES MANQUANTES
+                       NVSTA(1) =    0      NVSTA(2) =    3     : NOMBRE DE QUESTIONS  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(3) =   41      NVSTA(4) =    2     : NOMBRE DE CONTINUES  (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(5) =    0      NVSTA(6) =    0     : NOMBRE DE FREQUENCES (ACTIVES, ILLUSTRATIVES)
+                       NVSTA(7) =    0      NVSTA(8) =    0     : NOMBRE DE DISTANCES  (ACTIVES, ILLUSTRATIVES)
+Z
+p 
+b2PARAMETRES LUS SUR NDON 
+  ENREGISTREMENT 1 ... TITRE : Sélection des individus et des variables pour l'analyse                         
+  ENREGISTREMENT 2 ... NVTOT =     47     : NOMBRE DE VARIABLES ENREGISTREES
+                       NIDI  =     15     : LONGUEUR DE L'IDENTIFICATEUR DES INDIVIDUS
+                       NITOT =    214     : NOMBRE D'INDIVIDUS ENREGISTRES
+                       TEST  =-999999.00  : VALEUR REPERANT LES DONNEES CONTINUES MANQUANTES
+Z 
+p 
+b2PARAMETRES LUS SUR NGRI 
+  ENREGISTREMENT 1 ... TITRE : Classification hiérarchique directe (sur facteurs)                              
+  ENREGISTREMENT 2 ... NINDI =  214     : NOMBRE D'INDIVIDUS AGREGES
+                       NCTET =    2     : NOMBRE DE TERMINAUX EN TETE
+                       NTERM =  214     : NOMBRE D'ELEMENTS TERMINAUX ENREGISTRES
+                       NVARU =   11     : NOMBRE DE VARIABLES UTILISEES
+                       PTOTI =  214.00  : POIDS TOTAL DES INDIVIDUS
+                       LORIG =    1     : ORIGINE (A.C.P. : CORRELATIONS       )
+                       LMETH =    1     : PROCEDURE (RECIP)
+Z 
+b2FIN D'EXECUTION DE LA PROCEDURE LE  15 FEVRIER 2016 A  23 HEURES   5 MINUTES  33 SECONDES
+Z 
+ 2FIN DE LA PROCEDURE ** ECGRI **
+Z 
+a1FIN NORMALE DE L'ANALYSE
+Z 

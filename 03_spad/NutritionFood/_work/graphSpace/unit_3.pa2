@@ -1,0 +1,8 @@
+LOG = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_3.logSba"
+OUT = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_3.lstSba"
+NDICA = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_3.lar"
+NDONA = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_3.dar"
+FBDON = "C:\workspace\Nutrition100Food\03_spad\NutritionFood\_work\graphSpace\unit_3.sba"
+PROC LBASE
+Lecture de la base SPAD
+STOP
